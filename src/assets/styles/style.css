@@ -1,0 +1,38 @@
+.container-home {
+  background-image: url(../img/backgroundcontact.jpg);
+  background-image: url(../img/bg2.jpg);
+  background-size: cover;
+  background-position: top;
+  opacity: 0.9;
+  position: absolute;
+  width: 100% !important;
+  height: 100%;
+}
+
+.card {
+  background-color: transparent !important;
+  box-shadow: 5px 10px #888888;
+}
+
+.buttonContact {
+  background-color: transparent !important;
+  border: 1px solid darkgray;
+}
+.buttonContact:hover {
+  background-color: #dc3545 !important;
+  border: 1px solid #dc3545;
+  box-shadow: 5px 10px #888888;
+}
+
+.card-img:hover {
+  /* width: 100% !important;
+  height: 160px !important;
+  border-radius: unset !important;
+  border: unset !important;
+  overflow: unset !important; */
+  transform: translateY(15px) !important;
+}
+
+.card .card-body .social i:hover {
+  color: #dc3545 !important;
+}
